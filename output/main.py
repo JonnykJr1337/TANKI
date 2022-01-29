@@ -14,7 +14,8 @@ cooldown = 2500
 last_rus_shot = 0
 last_ucr_shot = 0
 shotscounter = 0
-
+pygame.display.set_caption('TankITank')
+pygame.display.set_icon(pygame.image.load('data/Dota2.png'))
 
 def terminate():
     pygame.quit()
